@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
+
+//import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract ArrayShift {
      uint[] public arr;
 
     constructor(){
-        arr = [1,2,3,4,5,5];
+        arr = [1,2,3,4,5,6];
     }
 
     function removeElement(uint _index) public {
